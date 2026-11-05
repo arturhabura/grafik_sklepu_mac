@@ -23,13 +23,9 @@
     "mac": {
       "category": "public.app-category.business",
       "target": [
-        { "target": "dmg", "arch": ["x64", "arm64"] },
         { "target": "zip", "arch": ["x64", "arm64"] }
       ],
       "darkModeSupport": true
-    },
-    "dmg": {
-      "title": "Grafik Sklepu"
     },
     "win": {
       "target": [{ "target": "nsis", "arch": ["x64"] }]
