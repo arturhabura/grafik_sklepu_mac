@@ -22,7 +22,6 @@
     ],
     "mac": {
       "category": "public.app-category.business",
-      "icon": "build/icon.icns",
       "target": [
         { "target": "dmg", "arch": ["x64", "arm64"] },
         { "target": "zip", "arch": ["x64", "arm64"] }
@@ -31,7 +30,6 @@
     },
     "dmg": {
       "title": "Grafik Sklepu",
-      "icon": "build/icon.icns",
       "contents": [
         { "x": 130, "y": 220 },
         { "x": 410, "y": 220, "type": "link", "path": "/Applications" }
@@ -39,7 +37,6 @@
       "window": { "width": 540, "height": 380 }
     },
     "win": {
-      "icon": "build/icon.ico",
       "target": [{ "target": "nsis", "arch": ["x64"] }]
     },
     "nsis": {
